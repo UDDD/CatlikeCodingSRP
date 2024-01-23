@@ -243,6 +243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.9803363, g: 0.82113004, b: 0.18135323, a: 0.50649947}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &38628022
 GameObject:
@@ -456,6 +458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.15416743, g: 0.28445867, b: 0.30483893, a: 0.9533613}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &39471734
 GameObject:
@@ -577,6 +581,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.50219256, g: 0.20097092, b: 0.5428925, a: 0.6487905}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &49864514
 GameObject:
@@ -698,6 +704,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.78110814, g: 0.679995, b: 0.26170233, a: 0.73817337}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &58375123
 GameObject:
@@ -819,6 +827,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.44558388, g: 0.18771043, b: 0.38893706, a: 0.96912694}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &85112480
 GameObject:
@@ -940,6 +950,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4180928, g: 0.9961271, b: 0.4657442, a: 0.924135}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &118027833
 GameObject:
@@ -1061,6 +1073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4923213, g: 0.547831, b: 0.12613703, a: 0.73265576}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &129336724
 GameObject:
@@ -1182,6 +1196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.27579764, g: 0.28740385, b: 0.5189926, a: 0.7005364}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &132675688
 GameObject:
@@ -1303,6 +1319,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.63193494, g: 0.475851, b: 0.106127635, a: 0.7611159}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &158902239
 GameObject:
@@ -1424,6 +1442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.058594592, g: 0.46795374, b: 0.76608455, a: 0.55545664}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &211457896
 GameObject:
@@ -1545,6 +1565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4835804, g: 0.7840079, b: 0.47750288, a: 0.9871034}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &237985073
 GameObject:
@@ -1666,6 +1688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.2317895, g: 0.17090358, b: 0.94290423, a: 0.74268854}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &246336036
 GameObject:
@@ -1787,6 +1811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.5695365, g: 0.20169249, b: 0.40086693, a: 0.8611173}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &278373112
 GameObject:
@@ -1908,6 +1934,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.48467726, g: 0.16597332, b: 0.71485084, a: 0.962933}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &303938945
 GameObject:
@@ -2029,6 +2057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.60859007, g: 0.41197687, b: 0.27368656, a: 0.79908097}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &325981205
 GameObject:
@@ -2150,6 +2180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.80573964, g: 0.5631483, b: 0.73022157, a: 0.6934259}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &334251246
 GameObject:
@@ -2271,6 +2303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6864713, g: 0.5646549, b: 0.70168275, a: 0.6396781}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &349622815
 GameObject:
@@ -2392,6 +2426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.58762366, g: 0.7941288, b: 0.6643761, a: 0.61852026}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &394186564
 GameObject:
@@ -2513,6 +2549,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.923586, g: 0.24787858, b: 0.5208438, a: 0.7868626}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &424900732
 GameObject:
@@ -2634,6 +2672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.24903324, g: 0.48016566, b: 0.028325204, a: 0.6645069}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &467500751
 GameObject:
@@ -2755,6 +2795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.3342605, g: 0.09738101, b: 0.38132852, a: 0.9666387}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &493669826
 GameObject:
@@ -2876,6 +2918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.77392924, g: 0.60671693, b: 0.6069209, a: 0.5323275}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &511040906
 GameObject:
@@ -2997,6 +3041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.34996226, g: 0.35280326, b: 0.6773779, a: 0.93496245}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &591745684
 GameObject:
@@ -3118,6 +3164,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.81030846, g: 0.8803201, b: 0.045263294, a: 0.5351255}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &603173551
 GameObject:
@@ -3239,6 +3287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.07887853, g: 0.9044198, b: 0.4392658, a: 0.8531775}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &658957213
 GameObject:
@@ -3360,6 +3410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.39809746, g: 0.073299654, b: 0.14212944, a: 0.66504455}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &670489143
 GameObject:
@@ -3481,6 +3533,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.86602986, g: 0.6500862, b: 0.31722346, a: 0.8421607}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &670640586
 GameObject:
@@ -3602,6 +3656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.9130019, g: 0.7517803, b: 0.32494488, a: 0.6828675}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &717445027
 GameObject:
@@ -3723,6 +3779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8662244, g: 0.26371542, b: 0.71240777, a: 0.75046563}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &745715309
 GameObject:
@@ -3844,6 +3902,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.73708266, g: 0.61999875, b: 0.35633007, a: 0.8411505}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &746302371
 GameObject:
@@ -3965,6 +4025,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.36741593, g: 0.74022347, b: 0.3951661, a: 0.5691948}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &751683222
 GameObject:
@@ -4086,6 +4148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.38049895, g: 0.6512669, b: 0.7669531, a: 0.99646187}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &762572840
 GameObject:
@@ -4207,6 +4271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6052204, g: 0.37569445, b: 0.73620933, a: 0.75166845}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &771572044
 GameObject:
@@ -4328,6 +4394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.78444386, g: 0.50363475, b: 0.60756284, a: 0.6044391}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &820144909
 GameObject:
@@ -4449,6 +4517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.3195658, g: 0.6293662, b: 0.5943034, a: 0.5421954}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &832378716
 GameObject:
@@ -4570,6 +4640,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8350549, g: 0.5298589, b: 0.3680773, a: 0.8531681}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &852834199
 GameObject:
@@ -4691,6 +4763,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6770764, g: 0.45460945, b: 0.55475825, a: 0.7439822}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &953987007
 GameObject:
@@ -4812,6 +4886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.010410787, g: 0.09450056, b: 0.7070008, a: 0.9719694}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1010517279
 GameObject:
@@ -4933,6 +5009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6030142, g: 0.5136599, b: 0.45377308, a: 0.89158434}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1011196661
 GameObject:
@@ -5054,6 +5132,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.7564757, g: 0.3855341, b: 0.5420839, a: 0.7492833}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1038379076
 GameObject:
@@ -5175,6 +5255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4328845, g: 0.50232714, b: 0.20524433, a: 0.85878134}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1093306086
 GameObject:
@@ -5296,6 +5378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6711044, g: 0.27367273, b: 0.24837223, a: 0.85812116}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1171590662
 GameObject:
@@ -5417,6 +5501,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.44592458, g: 0.3041928, b: 0.6887726, a: 0.71989274}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1234602592
 GameObject:
@@ -5538,6 +5624,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6907188, g: 0.3627235, b: 0.88900733, a: 0.549814}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1235096954
 GameObject:
@@ -5659,6 +5747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.43008882, g: 0.91580606, b: 0.6879496, a: 0.9771764}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1238635701
 GameObject:
@@ -5780,6 +5870,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8481264, g: 0.19061974, b: 0.9117733, a: 0.722762}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1264738581
 GameObject:
@@ -5901,6 +5993,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.5447071, g: 0.5320659, b: 0.9686798, a: 0.9515673}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1269213520
 GameObject:
@@ -6022,6 +6116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6562291, g: 0.28685835, b: 0.5726184, a: 0.68090904}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1298648365
 GameObject:
@@ -6038,7 +6134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1298648367
 Transform:
   m_ObjectHideFlags: 0
@@ -6262,6 +6358,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.926564, g: 0.1679491, b: 0.96862495, a: 0.52552724}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1301874128
 GameObject:
@@ -6383,6 +6481,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.9387181, g: 0.6765781, b: 0.8147218, a: 0.85626614}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1374055356
 GameObject:
@@ -6504,6 +6604,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.20503595, g: 0.78146064, b: 0.4929306, a: 0.93821514}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1394308093
 GameObject:
@@ -6625,6 +6727,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.95748544, g: 0.3338385, b: 0.75703263, a: 0.50324476}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1411297003
 GameObject:
@@ -6746,6 +6850,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.007891775, g: 0.4355119, b: 0.48002452, a: 0.5395262}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1418352877
 GameObject:
@@ -6867,6 +6973,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4116078, g: 0.9459404, b: 0.96294296, a: 0.41960785}
   cutoff: 0.631
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1423885592
 GameObject:
@@ -6988,6 +7096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.98136747, g: 0.620099, b: 0.154117, a: 0.89133155}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1457224407
 GameObject:
@@ -7109,6 +7219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.49870235, g: 0.68921715, b: 0.009410144, a: 0.6021293}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1474926257
 GameObject:
@@ -7230,6 +7342,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.674275, g: 0.9848715, b: 0.981526, a: 0.8457873}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1495158272
 GameObject:
@@ -7351,6 +7465,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.51523525, g: 0.71321076, b: 0.97754216, a: 0.6234129}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1553077064
 GameObject:
@@ -7472,6 +7588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.2859141, g: 0.13437296, b: 0.8269478, a: 0.72307396}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1555457358
 GameObject:
@@ -7593,6 +7711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.36262384, g: 0.84527194, b: 0.37844747, a: 0.6121043}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1579838060
 GameObject:
@@ -7714,6 +7834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8216218, g: 0.4633444, b: 0.34931543, a: 0.7993895}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1616154146
 GameObject:
@@ -7835,6 +7957,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6836379, g: 0.38716656, b: 0.15096332, a: 0.7618226}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1645003329
 GameObject:
@@ -7956,6 +8080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.9710573, g: 0.1349621, b: 0.27128342, a: 0.5643905}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1648794254
 GameObject:
@@ -8077,6 +8203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.5734715, g: 0.722709, b: 0.4860564, a: 0.5550501}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1689961049
 GameObject:
@@ -8198,6 +8326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.9566487, g: 0.38143784, b: 0.7518487, a: 0.52431977}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1718803338
 GameObject:
@@ -8319,6 +8449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8800185, g: 0.26890972, b: 0.15781356, a: 0.53417826}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1790944452
 GameObject:
@@ -8534,6 +8666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.51164204, g: 0.90618145, b: 0.67186874, a: 0.9121483}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1847678754
 GameObject:
@@ -8655,6 +8789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.5461555, g: 0.25425747, b: 0.8717818, a: 0.5847814}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1853242432
 GameObject:
@@ -8776,6 +8912,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.938655, g: 0.46020144, b: 0.17896856, a: 0.797837}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1865938002
 GameObject:
@@ -8897,6 +9035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.09830333, g: 0.21961907, b: 0.61806375, a: 0.58546823}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1866910483
 GameObject:
@@ -9018,6 +9158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.7897501, g: 0.22761396, b: 0.39183694, a: 0.75796926}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1921087983
 GameObject:
@@ -9139,6 +9281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.2737681, g: 0.038690213, b: 0.04994417, a: 0.82499945}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1925082131
 GameObject:
@@ -9260,6 +9404,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.2671552, g: 0.810405, b: 0.48386508, a: 0.89305675}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1934612734
 GameObject:
@@ -9381,6 +9527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.34376088, g: 0.06891323, b: 0.29953983, a: 0.5977602}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1938261638
 GameObject:
@@ -9502,6 +9650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.25243166, g: 0.75868165, b: 0.3765716, a: 0.6722301}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1944736040
 GameObject:
@@ -9623,6 +9773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.8285979, g: 0.16929866, b: 0.7382224, a: 0.5107101}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1947022637
 GameObject:
@@ -9744,6 +9896,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.08600784, g: 0.44532782, b: 0.18976572, a: 0.5839175}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1964812674
 GameObject:
@@ -9865,6 +10019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.070543416, g: 0.7584641, b: 0.77018726, a: 0.68948257}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1975704929
 GameObject:
@@ -9986,6 +10142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.32925418, g: 0.8922024, b: 0.37661344, a: 0.97711146}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1986141768
 GameObject:
@@ -10107,6 +10265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6629533, g: 0.027348403, b: 0.33887318, a: 0.7517706}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1986336519
 GameObject:
@@ -10124,7 +10284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1986336520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10274,6 +10434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.1236576, g: 0.2764292, b: 0.91465724, a: 0.7134892}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &1998335025
 GameObject:
@@ -10395,6 +10557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.6736763, g: 0.87572396, b: 0.6628378, a: 0.8260075}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2001612599
 GameObject:
@@ -10516,6 +10680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.46261054, g: 0.25483754, b: 0.7389037, a: 0.941889}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2022528240
 GameObject:
@@ -10637,6 +10803,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.98146796, g: 0.60537976, b: 0.8695916, a: 0.7478391}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2031762531
 GameObject:
@@ -10758,6 +10926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.34786227, g: 0.031034593, b: 0.41553742, a: 0.60118693}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2050124851
 GameObject:
@@ -10879,6 +11049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.23829511, g: 0.21150485, b: 0.11588968, a: 0.72591615}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2057108935
 GameObject:
@@ -11000,6 +11172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.34035483, g: 0.09179009, b: 0.062304266, a: 0.7193569}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1 &2109052395
 GameObject:
@@ -11121,6 +11295,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseColor: {r: 0.4142328, g: 0.64934593, b: 0.23524085, a: 0.88415223}
   cutoff: 0.504
+  metallic: 0
+  smoothness: 0.5
   isRandomColor: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

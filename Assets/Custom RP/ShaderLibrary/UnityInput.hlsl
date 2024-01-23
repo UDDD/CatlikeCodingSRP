@@ -16,4 +16,6 @@ float4x4 unity_MatrixInvV;
 float4x4 unity_prev_MatrixM;
 float4x4 unity_prev_MatrixIM;
 
+float3 _WorldSpaceCameraPos;
+
 #endif
