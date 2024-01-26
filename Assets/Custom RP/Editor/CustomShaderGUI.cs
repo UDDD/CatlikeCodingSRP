@@ -21,77 +21,17 @@ public class CustomShaderGUI : ShaderGUI
 
     bool showPresets;
 
-    bool HasProperty (string name) =>
-		FindProperty(name, properties, false) != null;
-
-    bool HasPremultiplyAlpha => HasProperty("_PremulAlpha");
-
-    bool PresetButton(string name)
+    enum ShadowMode
     {
-        if (GUILayout.Button(name))
-        {
-            editor.RegisterPropertyChangeUndo(name);
-            return true;
-        }
-        return false;
-    }
-
-    void OpaquePreset()
-    {
-        if (PresetButton("Opaque"))
-        {
-            Clipping = false;
-            PremultiplyAlpha = false;
-            SrcBlend = BlendMode.One;
-            DstBlend = BlendMode.Zero;
-            ZWrite = true;
-            RenderQueue = RenderQueue.Geometry;
-        }
-    }
-
-    void ClipPreset()
-    {
-        if (PresetButton("Clip"))
-        {
-            Clipping = true;
-            PremultiplyAlpha = false;
-            SrcBlend = BlendMode.One;
-            DstBlend = BlendMode.Zero;
-            ZWrite = true;
-            RenderQueue = RenderQueue.AlphaTest;
-        }
-    }
-
-    void FadePreset()
-    {
-        if (PresetButton("Fade"))
-        {
-            Clipping = false;
-            PremultiplyAlpha = false;
-            SrcBlend = BlendMode.SrcAlpha;
-            DstBlend = BlendMode.OneMinusSrcAlpha;
-            ZWrite = false;
-            RenderQueue = RenderQueue.Transparent;
-        }
-    }
-
-    void TransparentPreset()
-    {
-        if (HasPremultiplyAlpha && PresetButton("Transparent"))
-        {
-            Clipping = false;
-            PremultiplyAlpha = true;
-            SrcBlend = BlendMode.One;
-            DstBlend = BlendMode.OneMinusSrcAlpha;
-            ZWrite = false;
-            RenderQueue = RenderQueue.Transparent;
-        }
+        On, Clipped, Dithered, Off
     }
 
     public override void OnGUI(
         MaterialEditor materialEditor, MaterialProperty[] properties
     )
     {
+        EditorGUI.BeginChangeCheck();
+
         base.OnGUI(materialEditor, properties);
         editor = materialEditor;
         materials = materialEditor.targets;
@@ -106,6 +46,35 @@ public class CustomShaderGUI : ShaderGUI
             FadePreset();
             TransparentPreset();
         }
+
+        if (EditorGUI.EndChangeCheck())
+        {
+            SetShadowCasterPass();
+        }
+    }
+
+    void SetShadowCasterPass()
+    {
+        MaterialProperty shadows = FindProperty("_Shadows", properties, false);
+        if (shadows == null || shadows.hasMixedValue)
+        {
+            return;
+        }
+        bool enabled = shadows.floatValue < (float)ShadowMode.Off;
+        foreach (Material m in materials)
+        {
+            m.SetShaderPassEnabled("ShadowCaster", enabled);
+        }
+    }
+
+    bool PresetButton(string name)
+    {
+        if (GUILayout.Button(name))
+        {
+            editor.RegisterPropertyChangeUndo(name);
+            return true;
+        }
+        return false;
     }
 
     bool SetProperty(string name, float value)
@@ -145,6 +114,67 @@ public class CustomShaderGUI : ShaderGUI
         }
     }
 
+    void OpaquePreset()
+    {
+        if (PresetButton("Opaque"))
+        {
+            Clipping = false;
+            PremultiplyAlpha = false;
+            SrcBlend = BlendMode.One;
+            DstBlend = BlendMode.Zero;
+            ZWrite = true;
+            RenderQueue = RenderQueue.Geometry;
+            Shadows = ShadowMode.On;
+        }
+    }
+
+    void ClipPreset()
+    {
+        if (PresetButton("Clip"))
+        {
+            Clipping = true;
+            PremultiplyAlpha = false;
+            SrcBlend = BlendMode.One;
+            DstBlend = BlendMode.Zero;
+            ZWrite = true;
+            RenderQueue = RenderQueue.AlphaTest;
+            Shadows = ShadowMode.Clipped;
+        }
+    }
+
+    void FadePreset()
+    {
+        if (PresetButton("Fade"))
+        {
+            Clipping = false;
+            PremultiplyAlpha = false;
+            SrcBlend = BlendMode.SrcAlpha;
+            DstBlend = BlendMode.OneMinusSrcAlpha;
+            ZWrite = false;
+            RenderQueue = RenderQueue.Transparent;
+            Shadows = ShadowMode.Dithered;
+        }
+    }
+
+    bool HasProperty(string name) =>
+        FindProperty(name, properties, false) != null;
+
+    bool HasPremultiplyAlpha => HasProperty("_PremulAlpha");
+
+    void TransparentPreset()
+    {
+        if (HasPremultiplyAlpha && PresetButton("Transparent"))
+        {
+            Clipping = false;
+            PremultiplyAlpha = true;
+            SrcBlend = BlendMode.One;
+            DstBlend = BlendMode.OneMinusSrcAlpha;
+            ZWrite = false;
+            RenderQueue = RenderQueue.Transparent;
+            Shadows = ShadowMode.Dithered;
+        }
+    }
+
     bool Clipping
     {
         set => SetProperty("_Clipping", "_CLIPPING", value);
@@ -168,5 +198,17 @@ public class CustomShaderGUI : ShaderGUI
     bool ZWrite
     {
         set => SetProperty("_ZWrite", value ? 1f : 0f);
+    }
+
+    ShadowMode Shadows
+    {
+        set
+        {
+            if (SetProperty("_Shadows", (float)value))
+            {
+                SetKeyword("_SHADOWS_CLIP", value == ShadowMode.Clipped);
+                SetKeyword("_SHADOWS_DITHER", value == ShadowMode.Dithered);
+            }
+        }
     }
 }
